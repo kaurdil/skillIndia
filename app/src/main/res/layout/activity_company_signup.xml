@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".Data.signup_form2">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:hint="@string/comp_name"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:hint="@string/Id"
+            android:inputType="number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:hint="@string/password"
+            android:inputType="text|textPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:background="@drawable/button_rounded"
+        android:layout_marginTop="40dp"/>
+
+
+</LinearLayout>
